@@ -151,6 +151,15 @@ $main-color: #20966e;
 				 top: 20px;
 			}
 		}
+		dd{
+			padding: 0 5px;
+			@include mq(){
+				padding: 0 2%;
+			}
+			@include mq(small){
+				padding: 0;
+			}
+		}
 	}
 }
 span[class^="icon"]{
