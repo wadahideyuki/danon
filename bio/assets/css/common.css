@@ -164,6 +164,8 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
 .lineup-ttl { text-align: center; }
 
 /**footer**/
+footer a:hover { text-decoration: underline; }
+
 .foot-txt { padding: 0 10px; }
 
 .foot-txt p { padding-bottom: 10px; font-size: 0.9rem; }
@@ -175,11 +177,11 @@ footer nav { display: flex; flex-wrap: nowrap; justify-content: space-between; m
 footer nav dt { font-weight: bold; }
 footer nav li { padding-top: 15px; }
 footer a { color: #1a4735; text-decoration: none; }
-footer .footer-link { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: center; max-width: 1024px; margin: 0 auto; font-size: 0.9rem; border-top: 1px solid #CCC; padding: 20px 0 30px 0; }
+footer .footer-link { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; max-width: 1024px; margin: 0 auto; font-size: 0.9rem; border-top: 1px solid #CCC; padding: 20px 0 30px 0; }
 @media screen and (max-width: 767px) { footer .footer-link { flex-wrap: wrap; justify-content: center; } }
 footer .footer-link .danone-logo { width: 61px; }
 @media screen and (max-width: 767px) { footer .footer-link .danone-logo { order: 2; } }
-footer .footer-link ul { text-align: center; width: 100%; margin: 0 auto; padding-bottom: 5%; }
+footer .footer-link ul { text-align: center; margin: 0 auto; padding-bottom: 5%; }
 footer .footer-link li { display: inline-block; border-right: 1px solid #CCCCCC; padding-right: 1em; padding-left: 1em; }
 @media screen and (max-width: 767px) { footer .footer-link li { font-size: 0.7rem; padding: 0 1.5%; } }
 footer .footer-link li:last-of-type { border: none; }
