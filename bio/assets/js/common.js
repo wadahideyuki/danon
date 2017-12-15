@@ -47,19 +47,33 @@ $(".about-nav li a").click(function(){
 	$(".about-list > li.filt" + filter).show();
 	return false;
 });
+	
+	///***footerlink**///
 	var pageCategory = location.search;
 	if(pageCategory == "?tikara"){
 		$(".about-list > li").hide();
 		$(".about-list > li.filtTikara").show();
-	}else if(pageCategory == "?campaign"){
-		$(".about-list > li").hide();
+	}
+	if(pageCategory == "?campaign"){
+		$(".lineup-list > li").hide();
 		$(".about-list > li.filtCampaign").show();
-		
-	}else if(pageCategory == "?oishisa"){
+	}
+	if(pageCategory == "?oishisa"){
 		$(".about-list > li").hide();
 		$(".about-list > li.filtOisisa").show();
+	}	
+	if(pageCategory == "?drink"){
+		$(".lineup-list > li").hide();
+		$(".lineup-list > li.filtDrink").show();
+	}
+	if(pageCategory == "?plane"){
+		$(".lineup-list > li").hide();
+		$(".lineup-list > li.filtPlane").show();
+	}
+	if(pageCategory == "?fruits"){
+		$(".lineup-list > li").hide();
+		$(".lineup-list > li.filtFruits").show();
 	}
 
-	
 
 });
