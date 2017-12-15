@@ -157,15 +157,11 @@
 }
 .slick-dots li button:before
 {
-    font-size: 60px;
-    line-height: 20px;
-
+    font-size: 40px;
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
 
     content: '•';
     text-align: center;
