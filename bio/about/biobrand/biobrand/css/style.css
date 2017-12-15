@@ -1,0 +1,23 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+
+.about-content p{
+	text-align: center;
+}
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 767px) {
+	
+.about-content p{
+	text-align: left;
+}
+	.about-content p br{
+		display: none;
+	}
+		
+}

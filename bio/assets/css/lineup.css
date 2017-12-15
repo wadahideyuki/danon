@@ -1,0 +1,61 @@
+.content-image { background: #eeeeee; }
+@media screen and (max-width: 767px) { .content-image { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; align-content: center; } }
+.content-image h1 { font-size: 3rem; padding: 150px 0 20px 0; line-height: 1.4; }
+@media screen and (max-width: 767px) { .content-image h1 { padding: 0 0 20px 0; font-size: 1.5rem; } }
+.content-image p { padding: 0 20px; }
+.content-image span { display: block; position: absolute; bottom: 30px; left: 0px; width: 100%; text-align: center; color: #000; font-size: 0.8rem; }
+@media screen and (max-width: 767px) { .content-image span { bottom: 10px; } }
+
+.lineup-pulldown { display: flex; flex-wrap: wrap; padding-top: 35px; }
+.lineup-pulldown li { width: 33%; border-top: 1px solid #1a4735; border-right: 1px solid #1a4735; border-bottom: 1px solid #1a4735; border-left: none; position: relative; }
+@media screen and (max-width: 767px) { .lineup-pulldown li { border: 1px solid #CCC; } }
+.lineup-pulldown li:first-child { border-left: 1px solid #1a4735; }
+@media screen and (max-width: 767px) { .lineup-pulldown li:first-child { border: 1px solid #CCC; } }
+@media screen and (max-width: 767px) { .lineup-pulldown li { width: 90%; margin: 10px auto; } }
+.lineup-pulldown li select { -moz-appearance: none; -webkit-appearance: none; appearance: none; width: 100%; box-sizing: border-box; padding: 10px; border: none; }
+.lineup-pulldown li:before { position: absolute; top: 20%; right: 3%; font-size: 26px; color: #2e9d77; }
+
+.lineup-list { display: flex; flex-wrap: wrap; position: relative; }
+.lineup-list:after { content: ""; display: block; position: absolute; left: 0px; bottom: 0px; width: 100%; border-bottom: 1px solid #FFF; }
+.lineup-list li { width: 25%; border-bottom: 1px solid #CCC; padding-bottom: 20px; margin-top: 20px; }
+@media screen and (max-width: 767px) { .lineup-list li { width: 33.3%; } }
+@media screen and (max-width: 600px) { .lineup-list li { width: 95%; margin: 0 auto; } }
+.lineup-list li a { display: block; text-decoration: none; color: #20966e; }
+.lineup-list li a em { display: inline-block; padding: 2px 10px; color: #000; font-size: 0.8rem; background: #CCC; margin-bottom: 5px; }
+.lineup-list li img { width: 100%; height: auto; }
+.lineup-list li dt { position: relative; padding: 0 5px; }
+.lineup-list li dt span { position: absolute; left: 0px; top: 20px; }
+
+span[class^="icon"] { display: inline-block; color: #FFF; font-size: 0.9rem; padding: 5px 15px; line-height: 1.2; }
+
+.icon_season { background: #13b5b1; }
+
+.icon_new { background: #e60012; }
+
+.icon_renew { background: #f8b551; }
+
+.font-green { color: #20966e; }
+
+.product-head { position: relative; border-bottom: 1px solid #e1e1e1; padding: 0 0 10px 0; margin-bottom: 35px; }
+@media screen and (max-width: 767px) { .product-head { padding: 0 0 8% 0; margin: 3% 3% 8% 3%; padding-top: 5vw; } }
+.product-head h1 { font-size: 2.4rem; padding-bottom: 20px; color: #20966e; }
+@media screen and (max-width: 767px) { .product-head h1 { font-size: 1.8rem; position: absolute; left: 0px; top: 0px; } }
+.product-head p { padding-top: 20px; }
+.product-head dl { display: flex; align-item: top; flex-wrap: wrap; }
+.product-head dt { width: 35%; }
+@media screen and (max-width: 767px) { .product-head dt { width: 100%; } }
+.product-head dt img { width: 100%; height: auto; }
+.product-head dd { width: 65%; padding: 50px 20px 0 30px; box-sizing: border-box; }
+@media screen and (max-width: 767px) { .product-head dd { width: 100%; padding: 0px; } }
+
+.seibun-block { width: 90%; margin: 0 auto; max-width: 800px; }
+.seibun-block h3 { font-size: 1.4rem; color: #20966e; }
+.seibun-block h3 span { color: #000; font-size: 0.9rem; margin-left: 10px; display: inline-block; }
+.seibun-block h4 { color: #20966e; }
+.seibun-block p { padding-bottom: 20px; }
+
+.seibun-area { display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 10px; }
+@media screen and (max-width: 767px) { .seibun-area { padding-bottom: 8%; } }
+.seibun-area dl { border: 2px solid  #e1e1e1; width: 31%; margin-bottom: 30px; box-sizing: border-box; padding: 15px 0; text-align: center; color: #20966e; }
+@media screen and (max-width: 767px) { .seibun-area dl { width: 48%; } }
+.seibun-area dl dd { font-size: 1.8rem; }

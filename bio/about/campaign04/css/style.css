@@ -1,0 +1,25 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.about-content a:hover{
+	opacity: 0.8;
+}
+.about-content p{
+	text-align: center
+}
+
+@media screen and (max-width: 767px) {
+	.text-center img{
+		width: 100%;
+		height: auto;
+	}
+.about-content p{
+	text-align: left;
+}
+	.about-content p br{
+		display: none;
+	}
+		
+}

@@ -1,0 +1,25 @@
+.content-image { background: url(../img/about/kv_about.jpg) center; background-size: cover; }
+@media screen and (max-width: 767px) { .content-image { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; align-content: center; height: 250px; } }
+@media screen and (max-width: 767px) { .content-image.about-top { height: 400px; } }
+.content-image h1 { font-size: 3rem; padding: 380px 0 0 0; line-height: 1.4; }
+@media screen and (max-width: 767px) { .content-image h1 { padding: 190px 0 20px 0; font-size: 1.5rem; } }
+
+.about-nav { text-align: center; padding: 60px 0 10px 0; }
+.about-nav li { display: inline-block; margin: 0 20px; }
+@media screen and (max-width: 767px) { .about-nav li { padding: 10px 0; } }
+.about-nav li a { color: #20966e; text-decoration: none; padding: 5px 10px; line-height: 1; display: block; transition: 0.3s; }
+.about-nav li a:hover { background-color: #20966e; color: #FFF; }
+
+.about-content { padding: 0 10px 150px 10px; max-width: 710px; width: 95%; text-align: center; margin: 0 auto; box-sizing: border-box; }
+.about-content p { text-align: left; line-height: 1.8; }
+.about-content blockquote { position: relative; margin: 4em 0 0 0; }
+.about-content blockquote p { margin-left: 80px; font-size: 1.6rem; }
+@media screen and (max-width: 767px) { .about-content blockquote p { margin-left: 40px; } }
+.about-content blockquote:before { content: ''; display: block; width: 50px; height: 36px; position: absolute; left: 0; top: 0.25em; background-image: url(../../assets/img/quote.png); background-repeat: no-repeat; background-size: contain; }
+@media screen and (max-width: 767px) { .about-content blockquote:before { width: 25px; height: 18px; } }
+.about-content h3 { color: #018e6b; text-align: left; font-size: 1.2rem; padding-bottom: 10px; padding-top: 3em; }
+@media screen and (max-width: 767px) { .about-content h3 { text-align: center; } }
+.about-content .note-box { width: 80%; margin: 4em auto 0 auto; }
+@media screen and (max-width: 767px) { .about-content .note-box { width: auto; margin: 2em auto 0 auto; } }
+
+.ttl-about { font-size: 2.2rem; padding-top: 50px; margin-bottom: 40px; }

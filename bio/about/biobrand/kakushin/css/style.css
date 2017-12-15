@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.about-content p{
+	line-height: 1.8;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+
+.about-content .lead-txt{
+	padding: 0px;
+}
+.about-content blockquote{
+	margin-top: 1em;
+}
+
+@media screen and (max-width: 767px) {
+	
+		
+}

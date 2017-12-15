@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta property="og:site_name" content="Activia" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://www.danone.co.jp/bio/favicon.ico" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta name="keywords" content="ダノンビオ,ヨーグルト,ダノンジャパン,機能性表示食品,お腹,不快感,やわらげる" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.bio.danone.co.jp/common/img/ogimage.jpg" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>14日間チャレンジ | ダノンビオ</title>
+<meta property="og:title" content="14日間チャレンジ" />
+<meta name="description" content="*/" />
+<meta property="og:description" content="まずは14日間続けて、あなたもスッキリ体験を目指しましょう。 14日間チャレンジした輝く女性たちのレポートコンテンツを公開中。日々の生活習慣をサポートする、ダノンビオオリジナル「14日間チャレンジMENU」であなたもチャレンジ！" />
+<meta property="og:url" content="https://www.danone.co.jp/bio/14dayschallenge/" />
+<link rel="canonical" href="https://www.danone.co.jp/bio/14dayschallenge/" />
+
+<link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/common.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="../assets/css/about.css"/>
+</head>
+
+<body>
+<header class="page14days">
+<!--#include virtual="/bio/assets/include/head.html" -->
+</header>
+<div class="content-wrapper">
+<div class="body field"><style type="text/css">.page-hero{display:none;}
+.panel-pane.pane-share-links{display:none;}
+#content-iframe iframe{
+	border: none;
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 2895px;
+}
+#btn-iframe-top{
+	background: url("/bio/14dayschallenge/common/img/btn-pagetop.png") no-repeat 50% 50%;
+	background-size: 60px 60px;
+	bottom: 20px;
+	height: 60px;
+	opacity: 0;
+	overflow: hidden;
+	right: 20px;
+	position: fixed;
+	text-indent: 100%;
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	transition: opacity .3s;
+	white-space: nowrap;
+	width: 60px;
+}
+#btn-iframe-top.show{
+	opacity: 1;
+}
+@media screen and (max-width: 1040px){
+	#content-iframe iframe{
+		width: 100vw;
+		height: 2834px;
+	}
+	#btn-iframe-top{
+		background-size: 30px 30px;
+		height: 30px;
+		width: 30px;
+	}
+}
+</style>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-49402527-4', 'auto', {'allowLinker': true});
+	ga('require', 'linker');
+	ga('linker:autoLink', ['www.bio.danone.co.jp','www.danone.co.jp']);
+	ga('send', 'pageview');
+</script>
+<p id="content-iframe"></p>
+<a href="#content-iframe" id="btn-iframe-top">TOPへ</a>
+<script>
+	var w = window.innerWidth;
+	var mode;
+	if(w > 1040){
+		mode = "pc";
+	}else if(w > 374){
+		mode = "sp-normal";
+	}else{
+		mode = "sp-narrow";
+	}
+
+	var linker;
+	function addiFrame(divId, url, opt_hash) {
+		return function(tracker) {
+			window.linker = window.linker || new window.gaplugins.Linker(tracker);
+			var iFrame = document.createElement('iFrame');
+			iFrame.src = window.linker.decorate(url, opt_hash);
+			document.getElementById(divId).appendChild(iFrame);
+		};
+	}
+	// Dynamically add the iFrame to the page with proper linker parameters.
+	ga(addiFrame('content-iframe', 'iframe/?mode='+mode+'&w='+w));
+	jQuery(window).on('message',function(e){
+		var msg = e.originalEvent.data;
+		if(msg.indexOf("showResult:") == 0){
+			var pos = parseInt(msg.split(":")[1]);
+			jQuery("html,body")
+				.stop()
+				.animate({
+					scrollTop:jQuery("#content-iframe").get(0).offsetTop + pos - 100
+				}, {
+					duration: 300
+				});
+		}
+		//
+		jQuery("a#btn-iframe-top").on("click", function(e){
+			e.preventDefault();
+			jQuery("html,body")
+				.stop()
+				.animate({
+					scrollTop:0
+				}, {
+					duration: 300
+				});
+		});
+		jQuery(window).on("scroll orientationchange resize", function(e){
+			if(jQuery(window).scrollTop() > 0){
+				jQuery("a#btn-iframe-top").addClass("show");
+			}else{
+				jQuery("a#btn-iframe-top").removeClass("show");
+			}
+		}).trigger("scroll");
+	});
+</script></div>
+  
+</div>
+
+<footer style="padding-top: 0px;">
+<!--#include virtual="/bio/assets/include/footer.html" -->
+</footer>
+<script src="../assets/js/jquery.min.js"></script> 
+<script src="../assets/js/slick.min.js"></script> 
+<script src="../assets/js/common.js"></script>
+</body>
+</html>

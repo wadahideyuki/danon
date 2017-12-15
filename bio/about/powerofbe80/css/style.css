@@ -1,0 +1,32 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.about-content{
+	max-width: 740px;
+}
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+
+.about-content .lead-txt{
+	padding:20px 0 0 0;
+}
+.about-content p{
+	text-align: center;
+}
+.font-green{
+	color: #20966e;
+}
+@media screen and (max-width: 767px) {
+
+.about-content p{
+	text-align: left;
+}
+	.about-content p br{
+		display: none;
+	}
+
+}

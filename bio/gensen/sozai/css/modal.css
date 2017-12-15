@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+br.sp{
+	display: none;
+}
+.modal-article{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 800px;
+	padding: 60px;
+	position: relative;
+	max-height: 80vh;
+	overflow-y: auto;
+}
+.modal-closer{
+	background: url("/bio/gensen/sozai/img/modal-closer.png") no-repeat 50% 50%;
+	bottom: 20px;
+	cursor: pointer;
+	height: 18px;
+	overflow: hidden;
+	position: absolute;
+	right: 25px;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 18px;
+}
+
+#plain-yogurt>h1{
+	background: url("/bio/gensen/sozai/img/modal-plainyogurt-title.jpg") no-repeat 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 3.0rem;
+	font-weight: normal;
+	height: 291px;
+	line-height: 1.2;
+	margin: 0 0 40px 0;
+	padding-left: 20px;
+	padding-top: 90px;
+	width: 684px;
+}
+#plain-yogurt>h1>small{
+	display: block;
+	font-size: 1.6rem;
+	padding-top: 26px;
+}
+#plain-yogurt>section{
+}
+#plain-yogurt>section>h2{
+	background: url("/bio/gensen/sozai/img/modal-yogurt-quote.png") no-repeat 0 0;
+	color: #007a58;
+	font-size: 2.3rem;
+	font-weight: normal;
+	margin-bottom: 30px;
+	min-height: 40px;
+	padding-left: 75px;
+}
+#plain-yogurt>section>p{
+	font-size: 1.6rem;
+	line-height: 1.8;
+	margin-bottom: 40px;
+	text-align: justify;
+}
+#plain-yogurt>section:nth-of-type(1)>p{
+	background: url("/bio/gensen/sozai/img/modal-plainyogurt-bg.jpg") no-repeat 100% 0;
+	padding-right: 260px;
+}
+#plain-yogurt>section>picture{
+	display: block;
+	margin-bottom: 30px;
+}
+#plain-yogurt>.note{
+	font-size: 1.2rem;
+}
+
+.modal-prod{
+	font-size: 1.4rem;
+	line-height: 1.8;
+
+}
+.modal-prod>header{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	min-height: 130px;
+	padding-left: 210px;
+}
+.modal-prod#prod-1>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-1.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-2>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-2.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-3>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-3.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-4>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-4.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-5>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-5.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-6>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-6.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-7>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-7.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-8>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-8.jpg") no-repeat 0 0;
+}
+.modal-prod#prod-9>header{
+	background: url("/bio/gensen/sozai/img/modal-prod-9.jpg") no-repeat 0 0;
+}
+.modal-prod>header>h1{
+	font-size: 3.5rem;
+	font-weight: normal;
+	margin: 0;
+}
+.modal-prod>header>p{
+	font-size: 1.5rem;
+	margin: 0;
+}
+.modal-prod>section h2{
+	color: #007a58;
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin: 0;
+}
+.modal-prod>.spec h2,
+.modal-prod>.table h2{
+	clear: both;
+	float: left;
+	margin-right: 0.5em;
+}
+.modal-prod>section p{
+	margin: 0;
+}
+.modal-prod>.ingredients{
+	margin-bottom: 30px;
+}
+.modal-prod>.spec{
+	margin-bottom: 30px;
+}
+.modal-prod>.table{
+}
+.modal-prod>.table>table{
+	margin-top: 15px;
+}
+.modal-prod>.table>table>tbody>tr{
+}
+.modal-prod>.table>table>tbody>tr>th,
+.modal-prod>.table>table>tbody>tr>td{
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+}
+.modal-prod>.table>table>tbody>tr>th{
+	font-weight: normal;
+}
+.modal-prod>.table>table>tbody>tr>th:first-child,
+.modal-prod>.table>table>tbody>tr>td:first-child{
+	padding-left: 0;
+}
+.modal-prod>.table>table>tbody>tr>td{
+}
+.modal-prod>.table>#table-ul{
+	display: none;
+}
+
+@media (max-width: 1279px){
+}
+
+@media (max-width: 767px){
+	br.sp{
+		display: inline;
+	}
+	.modal-article{
+		width: 100%;
+		padding: 15px 15px 50px 15px;
+		max-height: 80vh;
+	}
+	.modal-closer{
+		background: url("/bio/gensen/sozai/img/sp/modal-closer.png") no-repeat 50% 50%;
+		bottom: 0;
+		height: 50px;
+		right: calc(50% - 25px);
+		width: 50px;
+	}
+
+	#plain-yogurt>h1{
+		background: url("/bio/gensen/sozai/img/sp/modal-plainyogurt-title.jpg.png") no-repeat 100% 0;
+		background-size: cover;
+		font-size: 1.5rem;
+		height: 145.5px;
+		margin: 0 auto 25px auto;
+		padding-left: 10px;
+		padding-top: 40px;
+		width: 280.5px;
+	}
+	#plain-yogurt>h1>small{
+		font-size: 1.0rem;
+		padding-top: 10px;
+	}
+	#plain-yogurt>section>h2{
+		background: url("/bio/gensen/sozai/img/sp/modal-yogurt-quote.png") no-repeat 0 0;
+		background-size: 20.5px 18px;
+		font-size: 1.6rem;
+		margin-bottom: 15px;
+		min-height: 18px;
+		padding-left: 36px;
+	}
+	#plain-yogurt>section>p{
+		font-size: 1.4rem;
+		line-height: 1.8;
+		margin-bottom: 25px;
+	}
+	#plain-yogurt>section:nth-of-type(1)>p{
+		background: url("/bio/gensen/sozai/img/sp/modal-plainyogurt-bg.png") no-repeat 50% 100%;
+		background-size: 280.5px 116.5px;
+		padding-right: 0;
+		padding-bottom: 137px;
+	}
+	#plain-yogurt>section>picture{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	#plain-yogurt>section>picture>img{
+		margin-bottom: 20px;
+		width: 280.5px;
+	}
+
+	.modal-prod{
+		line-height: 1.6;
+		padding-top: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.modal-prod>header{
+		background-size: 112px 82.5px !important;
+		margin-bottom: 10px;
+		min-height: 110px;
+		padding-left: 130px;
+	}
+	.modal-prod#prod-1>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-1.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-2>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-2.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-3>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-3.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-4>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-4.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-5>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-5.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-6>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-6.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-7>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-7.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-8>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-8.jpg") no-repeat 0 15px;
+	}
+	.modal-prod#prod-9>header{
+		background: url("/bio/gensen/sozai/img/sp/modal-prod-9.jpg") no-repeat 0 15px;
+	}
+	.modal-prod>header>h1{
+		font-size: 2.0rem;
+		font-weight: bold;
+		line-height: 1.4;
+		margin-bottom: 18px;
+	}
+	.modal-prod>header>p{
+		font-size: 1.2rem;
+	}
+	.modal-prod>section h2{
+		font-size: 1.0rem;
+	}
+	.modal-prod>section p{
+		font-size: 1.0rem;
+	}
+	.modal-prod>.ingredients{
+		margin-bottom: 20px;
+	}
+	.modal-prod>.spec{
+		margin-bottom: 20px;
+		overflow: hidden;
+		position: relative;
+	}
+	.modal-prod>.spec>h2,
+	.modal-prod>.spec>p{
+		clear: none;
+		float: left;
+	}
+	.modal-prod>.spec>p{
+		margin-right: 12px;
+	}
+	.modal-prod>.table>table{
+		display: none;
+	}
+	.modal-prod>.table>#table-ul{
+		display: block;
+		font-size: 1.0rem;
+		margin-top: 10px;
+		overflow: hidden;
+		position: relative;
+	}
+	.modal-prod>.table>#table-ul>ul{
+	}
+	.modal-prod>.table>#table-ul>ul:nth-child(1){
+		float: left;
+	}
+	.modal-prod>.table>#table-ul>ul:nth-child(2){
+		float: right;
+	}
+	.modal-prod>.table>#table-ul>ul>li{
+	}
+}

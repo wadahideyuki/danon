@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+.about-content p{
+	padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
+
+}

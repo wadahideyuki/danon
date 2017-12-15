@@ -1,0 +1,20 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+
+.about-content .lead-txt{
+	text-align: center;
+}
+.about-content p{
+	padding:10px 0 20px 0;
+}
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 767px) {
+	
+		
+}

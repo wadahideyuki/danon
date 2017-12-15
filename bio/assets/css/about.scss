@@ -1,0 +1,140 @@
+@mixin mq($breakpoint: medium) {
+  @if $breakpoint == xsmall {
+    @media screen and (max-width: 320px) {
+      @content;
+    }
+  } @else if $breakpoint == small {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  } @else if $breakpoint == medium {
+    @media screen and (max-width: 767px) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media screen and (max-width: 66.24em) {
+      @content;
+    }
+  } @else if $breakpoint == xlarge {
+    @media screen and (max-width: 1280px) {
+        @content;
+    }
+  }
+}
+$main-color: #20966e;
+.content-image{
+	background: url(../img/about/kv_about.jpg) center;
+	background-size: cover;
+		@include mq{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			align-content: center;
+			height: 250px;
+	}
+	&.about-top{
+		@include mq{
+			height: 400px;
+		}
+		
+	}
+	h1{
+		font-size: 3rem;
+		padding: 380px 0 0 0;
+		line-height: 1.4;
+		@include mq{
+			padding: 190px 0 20px 0;
+			font-size: 1.5rem;
+		}
+	}
+}
+.about-nav{
+	text-align: center;
+	padding: 60px 0 10px 0;
+	li{
+		display: inline-block;
+		margin: 0 20px;
+		@include mq{
+			padding: 10px 0;
+		}
+	a{
+		color: $main-color;
+		text-decoration: none;
+		padding: 5px 10px;
+		line-height: 1;
+		display: block;
+		transition: 0.3s;
+		&:hover{
+			background-color: $main-color;
+			color: #FFF;			
+		}
+	}
+}
+	}
+
+.about-content{
+	padding:0 10px 150px 10px;
+	max-width: 710px;
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+	p{
+		text-align: left;
+		line-height: 1.8;
+		
+	}
+	blockquote {
+		position: relative;
+		margin: 4em 0 0 0;
+		p {
+		margin-left: 80px;
+		font-size: 1.6rem;
+			@include mq{
+				margin-left: 40px;
+			}
+		}
+		&:before {
+			content: '';
+			display: block;
+			width: 50px;
+			height: 36px;
+			position: absolute;
+			left: 0;
+			top: 0.25em;
+			background-image: url(../../assets/img/quote.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			@include mq{
+				width: 25px;
+				height: 18px;
+			}
+		}
+	}
+	h3{
+	color: #018e6b;
+	text-align: left;
+	font-size: 1.2rem;
+	padding-bottom: 10px;
+	padding-top: 3em;
+	@include mq{
+		text-align: center;
+		}
+	}
+	.note-box{
+		width: 80%;
+		margin: 4em auto 0 auto;
+		@include mq{
+		width: auto;
+		margin: 2em auto 0 auto;
+		}
+	}
+}
+.ttl-about{
+	font-size: 2.2rem;
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+

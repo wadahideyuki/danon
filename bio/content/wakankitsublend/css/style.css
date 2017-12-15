@@ -1,0 +1,27 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.box{
+	padding: 15px;
+	background: #FFF;
+	border: 2px solid #e1e1e1;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.box dd{
+	font-size: 0.8rem;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 767px) {
+	
+		
+}

@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.about-content p{
+	padding-bottom: 20px;
+	line-height: 1.8;
+	text-align: center;
+}
+.about-content ul{
+	text-align: center;
+}
+.about-content li{
+	display: inline-block;
+	margin: 0 5px;
+}
+@media screen and (max-width: 767px) {
+	.about-content p{
+		text-align: left;
+	}
+	.about-content p br{
+		display: none;
+	}
+		
+}

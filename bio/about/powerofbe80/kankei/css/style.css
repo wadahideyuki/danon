@@ -1,0 +1,42 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../../../wakankitsublend%20-%20Copy%20%5B2%5D/img/kv.jpg);
+}
+.about-content p{
+	padding-bottom: 20px;
+	line-height: 1.8;
+}
+.about-content p.lead-txt{
+	font-size: 1.6rem;
+	padding: 0 0 30px 0;
+	text-align: center;
+    
+}
+.about-content a{
+	display: inline-block;
+	background: #134834;
+	padding: 0.5em 1em;
+	color: #FFF;
+	text-decoration: none;
+	margin-top: 40px;
+	font-size: 1.3rem;
+	transition: 0.5s;
+	border: 1px solid #134834;
+}
+.about-content a:hover{
+	color:  #134834;
+	background: #FFF;
+}
+@media screen and (max-width: 767px) {
+	.about-content p{
+		text-align: left;
+	}
+	.about-content p.text-center br{
+		display: none;
+	}
+	.about-content p.lead-txt{
+		font-size: 1.3rem;
+		}
+		
+}

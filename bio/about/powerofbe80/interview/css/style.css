@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+.about-content{
+	max-width: 900px;
+}
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+section{
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 4em;
+	padding: 0 100px 4em 100px;
+}
+section:last-child{
+	border: none;
+	padding-bottom: 0;
+}
+.about-content .note-box{
+	width: 100%;
+}
+@media screen and (max-width: 767px) {
+section{
+	padding: 0 0px 4em 0px;
+	}
+
+}

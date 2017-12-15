@@ -1,0 +1,16 @@
+/* CSS Document */
+
+.content-image{
+	background-image: url(../img/kv.jpg);
+}
+
+.about-content img{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 767px) {
+	
+	.lead-txt{
+		padding: 0px;
+	}
+}

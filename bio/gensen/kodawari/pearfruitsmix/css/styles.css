@@ -1,0 +1,1256 @@
+#page-body .tastes {
+  position: relative;
+}
+#page-body .taste-title {
+  z-index: 4;
+}
+#page-body.pc .taste-title {
+  position: absolute;
+  left: -3px;
+  right: 0;
+  top: -4px;
+  margin: auto;
+  width: 663px;
+  height: 91px;
+}
+#page-body.pc.size2 .taste-title {
+  left: -20.4px;
+  top: -5.95px;
+  width: 563.55px;
+  height: 77.35px;
+}
+#page-body.pc.size2 .taste-title img {
+  width: 100%;
+}
+#page-body.sp .taste-title {
+  position: relative;
+  top: 5px;
+  margin: auto;
+  max-width: 360px;
+  padding: 0 13px;
+}
+#page-body.sp .taste-title img {
+  width: 100%;
+  height: auto;
+}
+
+#page-body .taste {
+  position: relative;
+}
+#page-body .taste img {
+  display: block;
+}
+#page-body .taste .tasteContent {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+#page-body .taste .title {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  opacity: 0;
+}
+#page-body .taste .title.appear {
+  opacity: 1;
+}
+#page-body .taste .title-text {
+  transform-origin: 50% 50%;
+}
+#page-body .taste .chefkodawari {
+  position: absolute;
+}
+#page-body .taste .chefkodawari .kodawari_click {
+  position: absolute;
+  left: 30px;
+  top: -38px;
+}
+#page-body .taste .chefkodawari .kodawari_click .click_text {
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+#page-body .taste .chefkodawari .kodawari_click .click_frame {
+  transform-origin: 50% 100%;
+  opacity: 0;
+}
+#page-body .taste .chefkodawari img {
+  transition-property: transform;
+  transition-duration: 120ms;
+  transition-timing-function: ease-out;
+}
+#page-body .taste .chefkodawari:hover img {
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+#page-body.pc .taste .tasteContent {
+  width: 1178px;
+}
+#page-body.pc .taste .title {
+  width: 92.95px;
+  height: 92.95px;
+}
+#page-body.pc .taste .chefkodawari {
+  width: 130px;
+  height: 130px;
+}
+#page-body.pc.size2 .taste .tasteContent {
+  transform-origin: 50% 0;
+  transform: scale(0.85) translateX(-90px);
+  width: 1001.3px;
+}
+#page-body.sp .taste .tasteContent {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#page-body.sp .taste .title {
+  width: 60px;
+  height: 60px;
+}
+#page-body.sp .taste .title svg {
+  width: 60px;
+  height: 60px;
+}
+#page-body.sp .taste .chefkodawari {
+  width: 65px;
+  height: 65px;
+}
+#page-body.sp .taste .chefkodawari img {
+  width: 65px;
+  height: 65px;
+}
+#page-body.sp .taste .chefkodawari .kodawari_click {
+  width: 61px;
+  height: auto;
+  left: 2px;
+  top: -26px;
+}
+
+#page-body .taste1 {
+  z-index: 3;
+}
+#page-body .taste1 .point {
+  opacity: 0;
+}
+#page-body .taste1 .copy1 {
+  opacity: 0;
+}
+#page-body .taste1 .copy2 {
+  opacity: 0;
+}
+#page-body .taste1 .copy3 {
+  opacity: 0;
+}
+#page-body .taste1 .copy4 {
+  opacity: 0;
+}
+#page-body .taste1 .circle1 {
+  opacity: 0;
+}
+#page-body .taste1 .circle2 {
+  opacity: 0;
+}
+#page-body .taste1 .effect {
+  opacity: 0;
+}
+#page-body .taste1 .pear {
+  opacity: 0;
+}
+#page-body.pc .taste1 {
+  height: 756px;
+}
+#page-body.pc .taste1 .tasteContent {
+  height: 756px;
+}
+#page-body.pc .taste1 .bg {
+  position: absolute;
+  top: 21px;
+  right: 0;
+  width: 1050px;
+  height: 735px;
+  opacity: 0;
+}
+#page-body.pc .taste1 .bg.show {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1500ms;
+  transition-timing-function: ease-in-out;
+}
+#page-body.pc .taste1 .title {
+  top: 114px;
+}
+#page-body.pc .taste1 .point {
+  left: 77px;
+  top: 122px;
+  position: absolute;
+  width: 210px;
+  height: 101px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .pear {
+  left: 426px;
+  top: 54px;
+  position: absolute;
+  width: 635px;
+  height: 635px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .circle1 {
+  left: 402px;
+  top: 49px;
+  position: absolute;
+  width: 124px;
+  height: 112px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .circle2 {
+  left: 537px;
+  top: 593px;
+  position: absolute;
+  width: 162px;
+  height: 205px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .effect {
+  transform-origin: 100% 0;
+  left: -54px;
+  top: 460px;
+  position: absolute;
+  width: 290px;
+  height: 299px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .copy1 {
+  left: 47px;
+  top: 258px;
+  position: absolute;
+  width: 255px;
+  height: 83px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .copy2 {
+  left: 192px;
+  top: 315px;
+  position: absolute;
+  width: 326px;
+  height: 267px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .copy3 {
+  left: 249px;
+  top: 552px;
+  position: absolute;
+  width: 133px;
+  height: 34px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .copy4 {
+  left: 267px;
+  top: 642px;
+  position: absolute;
+  width: 254px;
+  height: 49px;
+  pointer-events: none;
+}
+#page-body.pc .taste1 .chefkodawari {
+  left: 76px;
+  top: 452px;
+}
+#page-body.pc.size2 .taste1 {
+  height: 642.6px;
+}
+#page-body.pc.size2 .taste1 .bg {
+  top: 17.85px;
+  width: 892.5px;
+  height: 624.75px;
+}
+#page-body.pc.size2 .taste1 .bg img {
+  width: 100%;
+}
+#page-body.sp .taste1 {
+  height: 585px;
+}
+#page-body.sp .taste1 .bg {
+  position: absolute;
+  top: 128px;
+  left: 0;
+  width: 100%;
+  height: 378px;
+  background: transparent url(../img/taste1-bg@sp.jpg) no-repeat 50% 50%;
+  background-size: 360px 378px;
+  background-size: cover;
+}
+#page-body.sp .taste1 .bg .bg-white1 {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  top: 0;
+  background: transparent url(../img/taste1-bg_white1@sp.png) repeat-x 0 100%;
+  background-size: 5px 50px;
+}
+#page-body.sp .taste1 .bg .bg-white2 {
+  position: absolute;
+  width: 100%;
+  height: 155px;
+  left: 0;
+  bottom: 0;
+  background: transparent url(../img/taste1-bg_white2@sp.png) repeat-x 0 100%;
+  background-size: 5px 155px;
+}
+#page-body.sp .taste1 .bg.show {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1500ms;
+  transition-timing-function: ease-in-out;
+}
+#page-body.sp .taste1 .title {
+  left: -118px;
+  top: 0px;
+}
+#page-body.sp .taste1 .point {
+  left: -70px;
+  top: 17px;
+  position: absolute;
+  width: 138px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .point img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .pear {
+  left: -200px;
+  top: 190px;
+  position: absolute;
+  width: 317.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .pear img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .circle1 {
+  left: -201px;
+  top: 489px;
+  position: absolute;
+  width: 129.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .circle1 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .circle2 {
+  left: 76px;
+  top: 538px;
+  position: absolute;
+  width: 56.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .circle2 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .effect {
+  left: 35px;
+  top: 267px;
+  position: absolute;
+  width: 135.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .effect img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .copy1 {
+  left: -123px;
+  top: 108px;
+  position: absolute;
+  width: 127px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .copy1 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .copy2 {
+  left: -65px;
+  top: 150px;
+  position: absolute;
+  width: 176px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .copy2 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .copy3 {
+  left: 32px;
+  top: 244px;
+  position: absolute;
+  width: 66.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .copy3 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .copy4 {
+  left: -67px;
+  top: 513px;
+  position: absolute;
+  width: 126.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste1 .copy4 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste1 .chefkodawari {
+  left: 77px;
+  top: 115px;
+}
+
+#page-body .taste2 {
+  z-index: 2;
+  background-color: #004d2c;
+}
+#page-body .taste2 .bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#page-body .taste2 .point {
+  opacity: 0;
+}
+#page-body .taste2 .pear1 {
+  opacity: 0;
+}
+#page-body .taste2 .pear2 {
+  opacity: 0;
+}
+#page-body .taste2 .copy1 {
+  opacity: 0;
+}
+#page-body .taste2 .copy2 {
+  opacity: 0;
+}
+#page-body .taste2 .copy3 {
+  opacity: 0;
+}
+#page-body .taste2 .copy4 {
+  opacity: 0;
+}
+#page-body .taste2 .copy5 {
+  opacity: 0;
+}
+#page-body .taste2 .copy6 {
+  opacity: 0;
+}
+#page-body .taste2 .effect1 {
+  opacity: 0;
+}
+#page-body .taste2 .effect3 {
+  opacity: 0;
+}
+#page-body .taste2 .spoonfolk {
+  opacity: 0;
+}
+#page-body.pc .taste2 {
+  height: 765px;
+}
+#page-body.pc .taste2 .title {
+  top: 29px;
+}
+#page-body.pc .taste2 .point {
+  left: 77px;
+  top: 50px;
+  position: absolute;
+  width: 210px;
+  height: 101px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .pear1 {
+  left: 722px;
+  top: 58px;
+  position: absolute;
+  width: 437px;
+  height: 489px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .pear1_line {
+  position: absolute;
+  width: 437px;
+  height: 490px;
+  left: 722px;
+  top: 58px;
+}
+#page-body.pc .taste2 .pear1_line polygon {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+}
+#page-body.pc .taste2 .pear2 {
+  left: 516px;
+  top: 461px;
+  position: absolute;
+  width: 359px;
+  height: 401px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .pear2_line {
+  position: absolute;
+  width: 359px;
+  height: 402px;
+  left: 517px;
+  top: 462px;
+}
+#page-body.pc .taste2 .pear2_line polygon {
+  stroke-dasharray: 1220;
+  stroke-dashoffset: 1220;
+}
+#page-body.pc .taste2 .copy1 {
+  left: 340px;
+  top: 58px;
+  position: absolute;
+  width: 331px;
+  height: 69px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .copy2 {
+  left: 343px;
+  top: 159px;
+  position: absolute;
+  width: 519px;
+  height: 126px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .copy3 {
+  left: 567px;
+  top: 284px;
+  position: absolute;
+  width: 69px;
+  height: 34px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .copy4 {
+  left: 327px;
+  top: 369px;
+  position: absolute;
+  width: 134px;
+  height: 44px;
+  pointer-events: none;
+  transform-origin: 100% 50%;
+}
+#page-body.pc .taste2 .copy5 {
+  left: 189px;
+  top: 439px;
+  position: absolute;
+  width: 410px;
+  height: 83px;
+  pointer-events: none;
+  transform-origin: 100% 50%;
+}
+#page-body.pc .taste2 .copy6 {
+  left: 326px;
+  top: 555px;
+  position: absolute;
+  width: 177px;
+  height: 29px;
+  pointer-events: none;
+  transform-origin: 100% 50%;
+}
+#page-body.pc .taste2 .effect3 {
+  left: 47px;
+  top: 285px;
+  position: absolute;
+  width: 262px;
+  height: 372px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .circle1 {
+  opacity: 0;
+  left: -14px;
+  top: 465px;
+  position: absolute;
+  width: 131px;
+  height: 134px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .circle2 {
+  opacity: 0;
+  left: 122px;
+  top: 628px;
+  position: absolute;
+  width: 304px;
+  height: 143px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .circle3 {
+  opacity: 0;
+  left: 909px;
+  top: 610px;
+  position: absolute;
+  width: 85px;
+  height: 97px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .spoonfolk {
+  left: 1011px;
+  top: 609px;
+  position: absolute;
+  width: 244px;
+  height: 103px;
+  pointer-events: none;
+}
+#page-body.pc .taste2 .chefkodawari {
+  left: 695px;
+  top: 64px;
+}
+#page-body.pc.size2 .taste2 {
+  height: 650.25px;
+}
+#page-body.sp .taste2 {
+  height: 715px;
+}
+#page-body.sp .taste2 .title {
+  left: -118px;
+  top: 14px;
+}
+#page-body.sp .taste2 .point {
+  left: -69px;
+  top: 28px;
+  position: absolute;
+  width: 138px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .point img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .pear1 {
+  left: -109px;
+  top: 216px;
+  position: absolute;
+  width: 218.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .pear1 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .pear2 {
+  left: -39px;
+  top: 600px;
+  position: absolute;
+  width: 179.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .pear2 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .copy1 {
+  left: -100px;
+  top: 105px;
+  position: absolute;
+  width: 194.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .copy1 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .copy2 {
+  left: -147px;
+  top: 166px;
+  position: absolute;
+  width: 259.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .copy2 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .copy3 {
+  left: 101px;
+  top: 210px;
+  position: absolute;
+  width: 35px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .copy3 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .copy4 {
+  left: -34px;
+  top: 469px;
+  position: absolute;
+  width: 76px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .copy4 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .copy5 {
+  left: -110px;
+  top: 510px;
+  position: absolute;
+  width: 226px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .copy5 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .copy6 {
+  left: -34px;
+  top: 575px;
+  position: absolute;
+  width: 100px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .copy6 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .circle {
+  opacity: 0;
+  left: -184px;
+  top: 438px;
+  position: absolute;
+  width: 376px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .circle img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .effect3 {
+  left: -193px;
+  top: 410px;
+  position: absolute;
+  width: 149px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .effect3 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .spoonfolk {
+  left: 86px;
+  top: 445px;
+  position: absolute;
+  width: 122px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste2 .spoonfolk img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste2 .chefkodawari {
+  left: 77px;
+  top: 287px;
+}
+
+#page-body .taste3 {
+  z-index: 1;
+}
+#page-body .taste3 .bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#page-body .taste3 .point {
+  opacity: 0;
+}
+#page-body .taste3 .circle1 {
+  opacity: 0;
+}
+#page-body .taste3 .circle2 {
+  opacity: 0;
+}
+#page-body .taste3 .circle {
+  opacity: 0;
+}
+#page-body .taste3 .leaf1 {
+  opacity: 0;
+}
+#page-body .taste3 .leaf2 {
+  opacity: 0;
+}
+#page-body .taste3 .apple {
+  opacity: 0;
+}
+#page-body .taste3 .copy1 {
+  opacity: 0;
+}
+#page-body .taste3 .copy2 {
+  opacity: 0;
+}
+#page-body .taste3 .copy3 {
+  opacity: 0;
+}
+#page-body .taste3 .copy4 {
+  opacity: 0;
+}
+#page-body .taste3 .copy5 {
+  opacity: 0;
+}
+#page-body .taste3 .copy6 {
+  opacity: 0;
+}
+#page-body .taste3 .copy7 {
+  opacity: 0;
+}
+#page-body .taste3 .copy8 {
+  opacity: 0;
+}
+#page-body .taste3 .effect {
+  opacity: 0;
+}
+#page-body .taste3 .scene {
+  opacity: 0;
+}
+#page-body .taste3 .catch {
+  opacity: 0;
+}
+#page-body.pc .taste3 {
+  height: 1510px;
+}
+#page-body.pc .taste3 .title {
+  top: 52px;
+}
+#page-body.pc .taste3 .bg {
+  height: 613px;
+  top: 0;
+  background-image: url(../img/taste3-bg.jpg);
+}
+#page-body.pc .taste3 .point {
+  left: 77px;
+  top: 74px;
+  position: absolute;
+  width: 210px;
+  height: 101px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .leaf1 {
+  left: 941px;
+  top: 51px;
+  position: absolute;
+  width: 89px;
+  height: 169px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .leaf2 {
+  left: -19px;
+  top: 442px;
+  position: absolute;
+  width: 166px;
+  height: 246px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .apple {
+  left: 131px;
+  top: 276px;
+  position: absolute;
+  width: 463px;
+  height: 487px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .scene {
+  left: 257px;
+  top: 940px;
+  position: absolute;
+  width: 681px;
+  height: 492px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy1 {
+  left: 499px;
+  top: 203px;
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy2 {
+  left: 700px;
+  top: 119px;
+  position: absolute;
+  width: 160px;
+  height: 154px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy3 {
+  left: 875px;
+  top: 262px;
+  position: absolute;
+  width: 67px;
+  height: 62px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy4 {
+  left: 815px;
+  top: 315px;
+  position: absolute;
+  width: 32px;
+  height: 36px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy5 {
+  left: 490px;
+  top: 403px;
+  position: absolute;
+  width: 379px;
+  height: 134px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy6 {
+  left: 668px;
+  top: 512px;
+  position: absolute;
+  width: 333px;
+  height: 65px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy7 {
+  left: 610px;
+  top: 658px;
+  position: absolute;
+  width: 125px;
+  height: 43px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .copy8 {
+  left: 498px;
+  top: 718px;
+  position: absolute;
+  width: 352px;
+  height: 99px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .effect {
+  left: 198px;
+  top: 694px;
+  position: absolute;
+  width: 1025px;
+  height: 305px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .catch {
+  left: 779px;
+  top: 876px;
+  position: absolute;
+  width: 250px;
+  height: 151px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .circle1 {
+  left: 213px;
+  top: 11px;
+  position: absolute;
+  width: 230px;
+  height: 261px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .circle2 {
+  left: 538px;
+  top: 66px;
+  position: absolute;
+  width: 337px;
+  height: 50px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .fruit1 {
+  left: 106px;
+  top: 911px;
+  position: absolute;
+  width: 127px;
+  height: 165px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .fruit2 {
+  left: 184px;
+  top: 1081px;
+  position: absolute;
+  width: 87px;
+  height: 72px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .fruit3 {
+  left: 205px;
+  top: 1120px;
+  position: absolute;
+  width: 73px;
+  height: 99px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .productname {
+  left: 139px;
+  top: 1335px;
+  position: absolute;
+  width: 899px;
+  height: 91px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .product {
+  left: 206px;
+  top: 1257px;
+  position: absolute;
+  width: 245px;
+  height: 198px;
+  pointer-events: none;
+}
+#page-body.pc .taste3 .chefkodawari {
+  left: 810px;
+  top: 630px;
+}
+#page-body.pc.size2 .taste3 {
+  height: 1283.5px;
+}
+#page-body.pc.size2 .taste3 .bg {
+  height: 521.05px;
+}
+#page-body.sp .taste3 {
+  height: 1230px;
+}
+#page-body.sp .taste3 .bg {
+  height: 514px;
+  top: 0;
+  background-image: url(../img/taste3-bg@sp.jpg);
+}
+#page-body.sp .taste3 .title {
+  left: -118px;
+  top: 94px;
+}
+#page-body.sp .taste3 .point {
+  left: -69px;
+  top: 93px;
+  position: absolute;
+  width: 138px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .point img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .circle {
+  left: -206px;
+  top: 12px;
+  position: absolute;
+  width: 190px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .circle img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .apple {
+  left: -116px;
+  top: 317px;
+  position: absolute;
+  width: 231.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .apple img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .leaf1 {
+  left: 90px;
+  top: 131px;
+  position: absolute;
+  width: 56px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .leaf1 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .leaf2 {
+  left: -158px;
+  top: 500px;
+  position: absolute;
+  width: 88.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .leaf2 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy1 {
+  left: -125px;
+  top: 250px;
+  position: absolute;
+  width: 93.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy1 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy2 {
+  left: -24.5px;
+  top: 208px;
+  position: absolute;
+  width: 79.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy2 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy3 {
+  left: 63px;
+  top: 279px;
+  position: absolute;
+  width: 33.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy3 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy4 {
+  left: 25px;
+  top: 302px;
+  position: absolute;
+  width: 21px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy4 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy5 {
+  left: -67px;
+  top: 545px;
+  position: absolute;
+  width: 219px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy5 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy6 {
+  left: -87px;
+  top: 649px;
+  position: absolute;
+  width: 166.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy6 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy7 {
+  left: -45px;
+  top: 695px;
+  position: absolute;
+  width: 76.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy7 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .copy8 {
+  left: -103px;
+  top: 730px;
+  position: absolute;
+  width: 203.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .copy8 img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .effect {
+  left: -249px;
+  top: 735px;
+  position: absolute;
+  width: 525px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .effect img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .scene {
+  left: -172px;
+  top: 885px;
+  position: absolute;
+  width: 341.5px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .scene img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .catch {
+  left: -73px;
+  top: 883px;
+  position: absolute;
+  width: 144px;
+  height: auto;
+  pointer-events: none;
+}
+#page-body.sp .taste3 .catch img {
+  width: 100%;
+  height: auto;
+}
+#page-body.sp .taste3 .chefkodawari {
+  left: 83px;
+  top: 688px;
+}

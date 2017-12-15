@@ -1,0 +1,552 @@
+@charset "UTF-8";
+
+#page-body{
+	margin-top: 93px;
+}
+#hero-area{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 643px;
+	overflow: hidden;
+	position: relative;
+}
+.no-videoautoplay #hero-area{
+	background: url("/bio/gensen/img/sp/hero-bg.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+.videoautoplay #hero-area,
+.ios10above #hero-area{
+	background: none;
+	color: #007a58;
+}
+.no-videoautoplay #hero-area:after{
+	bottom: 7px;
+	color: #777777;
+	content: "※ 写真はイメージです";
+	font-size: 14px;
+	font-feature-settings: "palt";
+	position: absolute;
+	right: 15px;
+}
+.videoautoplay #hero-area:after,
+.ios10above #hero-area:after{
+	display: none;
+}
+#hero-area>.video-container{
+	display: none;
+}
+.videoautoplay #hero-area>.video-container,
+.ios10above #hero-area>.video-container{
+	display: block;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	-webkit-transform: translate(0,0);
+	-moz-transform: translate(0,0);
+	-ms-transform: translate(0,0);
+	-o-transform: translate(0,0);
+	transform: translate(0,0);
+	width: 100%;
+}
+#hero-area>.video-container:after{
+	background: rgba(255,255,255,0.7);
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 4;
+}
+#hero-area>.video-container>video{
+	left: 50%;
+	position: absolute;
+	top: 0;
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	width: 100%;
+}
+#hero-area>.inner{
+	height: auto;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+#hero-area>.inner>h1{
+	display: none;
+	font-size: 4.3rem;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+#hero-area>.inner>p{
+	display: none;
+	font-size: 3.3rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+.videoautoplay #hero-area>.inner>h1,
+.no-videoautoplay #hero-area>.inner>h1,
+.videoautoplay #hero-area>.inner>p,
+.no-videoautoplay #hero-area>.inner>p{
+	display: block;
+}
+.no-videoautoplay #hero-area>.inner>h1,
+.no-videoautoplay #hero-area>.inner>p{
+	color: #000;
+}
+.videoautoplay #hero-area>.inner>h1,
+.ios10above #hero-area>.inner>h1,
+.videoautoplay #hero-area>.inner>p,
+.ios10above #hero-area>.inner>p{
+	color: #007a58;
+}
+#selection{
+	background: #133f2d;
+	color: #fff;
+}
+#selection>.inner{
+	background: url("/bio/gensen/img/selection-pkg.png") no-repeat 50% bottom, url("/bio/gensen/img/selection-inner-bg.jpg") repeat-y 50% 0;
+	height: 457px;
+}
+#selection>.inner>h2{
+	margin: 0;
+	padding: 54px 0 46px 0;
+	text-align: center;
+}
+#selection>.inner>h2>picture{
+	display: block;
+	height: 38px;
+}
+#selection>.inner>p{
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 2;
+	margin: 0;
+	text-align: center;
+}
+#lineups{
+	margin-bottom: 60px;
+	padding-top: 55px;
+}
+#lineups>.inner>h2{
+	color: #007a58;
+	font-size: 2.6rem;
+	font-weight: bold;
+	margin: 0 0 40px 0;
+	text-align: center;
+}
+#lineups>.inner>ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#lineups>.inner>ul>li{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	width: 302px;
+}
+#lineups>.inner>ul>li>a{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	height: 100%;
+	padding: 15px;
+	position: relative;
+	width: 286px;
+}
+#lineups>.inner>ul>li:last-child>a{
+	background: #f1ebcb;
+}
+#lineups>.inner>ul>li>a:after{
+	content: "";
+	height: 103px;
+	left: 175px;
+	position: absolute;
+	top: 112px;
+	width: 127px;
+}
+#lineups>.inner>ul>li:nth-child(1)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-1.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(2)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-2.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(3)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-3.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(4)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-4.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(5)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-5.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(6)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-6.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(7)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-7.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(8)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-8.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li:nth-child(9)>a:after{
+	background: url("/bio/gensen/img/lineups-pkg-9.png") no-repeat 0 0;
+}
+#lineups>.inner>ul>li>a>h3{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 2.1rem;
+	font-weight: bold;
+	height: 180px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 35px 0 0 12px;
+	-webkit-transition: background-size .3s;
+	-moz-transition: background-size .3s;
+	-ms-transition: background-size .3s;
+	-o-transition: background-size .3s;
+	transition: background-size .3s;
+}
+#lineups>.inner>ul>li:nth-child(1)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-1.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(2)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-2.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(3)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-3.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(4)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-4.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(5)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-5.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(6)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-6.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(7)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-7.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(8)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-8.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li:nth-child(9)>a>h3{
+	background: url("/bio/gensen/img/lineup-bg-9.jpg") no-repeat 50% 50%;
+	background-size: 100%;
+}
+#lineups>.inner>ul>li>a:hover>h3{
+	background-size: 120%;
+}
+#lineups>.inner>ul>li>a>i{
+	background: #fff;
+	color: #007a58;
+	display: block;
+	font-size: 1.3rem;
+	height: 30px;
+	left: 30px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	-webkit-transition: background-color,color .3s;
+	-moz-transition: background-color,color .3s;
+	-ms-transition: background-color,color .3s;
+	-o-transition: background-color,color .3s;
+	transition: background-color,color .3s;
+	width: 120px;
+}
+#lineups>.inner>ul>li>a:hover>i{
+	background: #007a58;
+	color: #fff;
+}
+#lineups>.inner>ul>li>a>p{
+	font-size: 1.8rem;
+	margin: 25px 0 0 0;
+}
+#lineups>.inner>ul>li>a>em{
+	background: #d2bc52;
+	/*bottom: 15px;*/
+	color: #fff;
+	display: inline-block;
+	font-size: 1.2rem;
+	/*left: 15px;*/
+	margin-top: 10px;
+	padding:3px 8px;
+	/*position: absolute;*/
+	text-align: center;
+}
+#recipe{
+	background: url("/bio/gensen/img/recipe-bg.jpg") no-repeat 50% 50%;
+	background-size: 2000px 456px;
+	border-bottom: 7px solid #007a58;
+	border-top: 7px solid #007a58;
+}
+#recipe>.inner{
+	height: 456px;
+	padding-left: 465px;
+	padding-right: 70px;
+	text-align: center;
+}
+#recipe>.inner>h2{
+	margin: 0 0 10px 0;
+	padding-top: 60px;
+	text-align: center;
+}
+#recipe>.inner>p{
+	color: #007a58;
+	font-size: 1.8rem;
+	margin: 0 0 25px 0;
+	text-align: center;
+}
+#recipe>.inner>a{
+	background: #fff;
+	border: 1px solid #007a58;
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding: 8px 36px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+#recipe>.inner>a:hover{
+	background-color: #007a58;
+	color: #fff;
+}
+
+@media (max-width: 1164px){
+	.videoautoplay #hero-area>.video-container>video,
+	.ios10above #hero-area>.video-container>video{
+		height: 643px;
+		width: auto;
+	}
+}
+
+@media (max-width: 767px){
+	#page-body{
+		margin-top: 70px;
+	}
+	#hero-area{
+		height: 240px;
+	}
+	.no-videoautoplay #hero-area:after{
+		font-size: 9px;
+	}
+	.videoautoplay #hero-area>.video-container>video,
+	.ios10above #hero-area>.video-container>video{
+		height: auto;
+		width: 100%;
+	}
+	#hero-area>.inner{
+	}
+	#hero-area.moviesize-flex>.inner{
+		height: 400px;
+		min-height: 400px;
+	}
+	#hero-area>.inner>h1{
+		font-size: 2.9rem;
+		line-height: 1.4;
+		/*margin-top: 20px;*/
+		position: relative;
+		top: 0;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+	}
+	#hero-area>.inner>p{
+		font-size: 1.8rem;
+		margin-top: 10px;
+		position: relative;
+		top: 0;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+	}
+	#selection>.inner{
+		background: url("/bio/gensen/img/sp/selection-pkg.png") no-repeat 50% bottom,url("/bio/gensen/img/sp/selection-inner-bg.jpg") repeat-y 50% 0;
+		background-size: 337.5px 58.5px, 360px 266px;
+		height: 270px;
+	}
+	#selection>.inner>h2{
+		padding: 20px 0 20px 0;
+	}
+	#selection>.inner>h2>picture{
+		height: 30px;
+	}
+	#selection>.inner>h2>picture>img{
+		width: 158px;
+	}
+	#selection>.inner>p{
+		font-size: 1.4rem;
+		line-height: 2;
+	}
+	#lineups{
+		margin-bottom: 30px;
+		padding-top: 40px;
+	}
+	#lineups>.inner>h2{
+		font-size: 1.7rem;
+		margin: 0 0 30px 0;
+	}
+	#lineups>.inner>ul{
+		margin-left: 19px;
+		margin-right: 19px;
+	}
+	#lineups>.inner>ul>li{
+		margin-bottom: 25px;
+		width: 50%;
+	}
+	#lineups>.inner>ul>li>a{
+		padding: 0;
+		width: 100%;
+	}
+	#lineups>.inner>ul>li:nth-child(odd)>a{
+		padding-right: 13px;
+	}
+	#lineups>.inner>ul>li:nth-child(even)>a{
+		padding-left: 13px;
+	}
+	#lineups>.inner>ul>li:last-child>a{
+		padding-left: 7.5px;
+		padding-right: 7.5px;
+		padding-top: 7.5px;
+
+	}
+	#lineups>.inner>ul>li>a:after{
+		background-size: contain !important;
+		height: 55.5px;
+		left: auto;
+		top: 80px;
+		width: 69.5px;
+	}
+	#lineups>.inner>ul>li:nth-child(odd)>a:after{
+		right: 0;
+	}
+	#lineups>.inner>ul>li:nth-child(even)>a:after{
+		right: -15px;
+	}
+	#lineups>.inner>ul>li:last-child>a:after{
+		right: -7.5px;
+		top: 87.5px;
+	}
+	#lineups>.inner>ul>li>a>h3{
+		background-size: cover !important;
+		font-size: 1.35rem;
+		height: 103px;
+		padding: 19px 0 0 9px;
+	}
+	#lineups>.inner>ul>li>a:hover>h3{
+		background-size: cover;
+	}
+	#lineups>.inner>ul>li>a>i{
+		border: 1px solid #007a58;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		font-size: 1.2rem;
+		height: 28px;
+		left: 0;
+		line-height: 28px;
+		padding-left: 15px;
+		position: relative;
+		text-align: left;
+		top: 0;
+		width: 100%;
+	}
+	#lineups>.inner>ul>li>a:hover>i{
+		background: #fff;
+		color: #007a58;
+	}
+	#lineups>.inner>ul>li>a>p{
+		font-size: 1.2rem;
+		margin: 15px 0 0 0;
+	}
+	#lineups>.inner>ul>li>a>p br{
+		display: none;
+	}
+	#lineups>.inner>ul>li>a>em{
+		display: block;
+		font-size: 1.0rem;
+		margin: 15px auto;
+		padding:3px 5px;
+		width: 80px;
+	}
+	#recipe{
+		background: url("/bio/gensen/img/sp/recipe-bg.jpg") no-repeat 50% 50%;
+		background-size: 560px 253.5px;
+		border-bottom: 4px solid #007a58;
+		border-top: 4px solid #007a58;
+	}
+	#recipe>.inner{
+		height: 253px;
+		padding-left: 25vw;
+		padding-right: 0;
+	}
+	#recipe>.inner>h2{
+		margin: 0 0 0 0;
+		padding-top: 25px;
+	}
+	#recipe>.inner>h2>picture>img{
+		width: 210.5px;
+	}
+	#recipe>.inner>p{
+		font-size: 1.2rem;
+		line-height: 1.4;
+		margin: 0 0 12px 0;
+	}
+	#recipe>.inner>a{
+		font-size: 1.0rem;
+		padding: 5px 36px;
+	}
+	#recipe>.inner>a:hover{
+		background: #fff;
+		color: #007a58;
+	}
+}
+
+@media (max-width: 442px){
+	.videoautoplay #hero-area>.video-container>video,
+	.ios10above #hero-area>.video-container>video{
+		height: 240px;
+		width: auto;
+	}
+}
