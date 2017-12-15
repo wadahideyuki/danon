@@ -47,6 +47,19 @@ $(".about-nav li a").click(function(){
 	$(".about-list > li.filt" + filter).show();
 	return false;
 });
+	var pageCategory = location.search;
+	if(pageCategory == "?tikara"){
+		$(".about-list > li").hide();
+		$(".about-list > li.filtTikara").show();
+	}else if(pageCategory == "?campaign"){
+		$(".about-list > li").hide();
+		$(".about-list > li.filtCampaign").show();
+		
+	}else if(pageCategory == "?oishisa"){
+		$(".about-list > li").hide();
+		$(".about-list > li.filtOisisa").show();
+	}
 
+	
 
 });
