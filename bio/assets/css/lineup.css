@@ -57,5 +57,6 @@ span[class^="icon"] { display: inline-block; color: #FFF; font-size: 0.9rem; pad
 .seibun-area { display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 10px; }
 @media screen and (max-width: 767px) { .seibun-area { padding-bottom: 8%; } }
 .seibun-area dl { border: 2px solid  #e1e1e1; width: 31%; margin-bottom: 30px; box-sizing: border-box; padding: 15px 0; text-align: center; color: #20966e; }
-@media screen and (max-width: 767px) { .seibun-area dl { width: 48%; } }
+.seibun-area dl.sizeS { width: 23%; }
+@media screen and (max-width: 767px) { .seibun-area dl { width: 48% !important; margin-bottom: 4%; } }
 .seibun-area dl dd { font-size: 1.8rem; }
