@@ -537,6 +537,11 @@ header {
 }
 
 /**footer**/
+footer{
+	a:hover{
+		text-decoration: underline;
+	}
+}
 .foot-txt{
 	padding: 0 10px;
 }
@@ -577,7 +582,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1024px;
     margin: 0 auto;
     font-size: 0.9rem;
@@ -595,7 +600,6 @@ footer {
     }
 	  ul{
 		  text-align: center;
-		  width: 100%;
 		  margin: 0 auto;
 		  padding-bottom: 5%;
 	  }
