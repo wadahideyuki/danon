@@ -25,6 +25,9 @@
 .lineup-list li img { width: 100%; height: auto; }
 .lineup-list li dt { position: relative; padding: 0 5px; }
 .lineup-list li dt span { position: absolute; left: 0px; top: 20px; }
+.lineup-list li dd { padding: 0 5px; }
+@media screen and (max-width: 767px) { .lineup-list li dd { padding: 0 2%; } }
+@media screen and (max-width: 600px) { .lineup-list li dd { padding: 0; } }
 
 span[class^="icon"] { display: inline-block; color: #FFF; font-size: 0.9rem; padding: 5px 15px; line-height: 1.2; }
 
