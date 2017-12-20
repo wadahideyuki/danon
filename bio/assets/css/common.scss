@@ -155,9 +155,17 @@ body {
   position: relative;
   z-index: 20;
 }
-
+.wrap-all{
+	padding-top: 100px;
+}
 /**header***/
-
+.head-wrap{
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 2000;
+}
 header {
   background: #154734;
   position: relative;
@@ -261,9 +269,12 @@ header {
 	display: none;
 }
 @include mq{
+	.wrap-all{
+		padding-top: 98px;
+	}
   header {
     .container {
-      padding: 2%;
+      padding: 6px;
       box-sizing: border-box;
     }
 	  .logo{

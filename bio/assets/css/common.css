@@ -82,7 +82,11 @@ body { line-height: 1.6; font-family: -apple-system, BlinkMacSystemFont, "Helvet
 
 .content-wrapper { position: relative; z-index: 20; }
 
+.wrap-all { padding-top: 100px; }
+
 /**header***/
+.head-wrap { width: 100%; position: fixed; left: 0px; top: 0px; z-index: 2000; }
+
 header { background: #154734; position: relative; }
 header .container { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: center; }
 header .btn-danon { margin-right: 10px; }
@@ -104,7 +108,8 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
 
 .sp-menu-btn { display: none; }
 
-@media screen and (max-width: 767px) { header .container { padding: 2%; box-sizing: border-box; }
+@media screen and (max-width: 767px) { .wrap-all { padding-top: 98px; }
+  header .container { padding: 6px; box-sizing: border-box; }
   header .logo { margin: 0 0 0 5px; }
   header .sp-menu-btn { position: absolute; right: 4%; top: 28%; content: ""; display: block; width: 50px; height: 50px; background: url(../img/sp_menu.png) no-repeat; background-size: cover; cursor: pointer; }
   header nav { display: block; position: fixed; right: -266px; top: 0px; padding: 0px 15px; background: #FFFFFF; height: 100vh; box-sizing: border-box; width: 266px; z-index: 999; transition: 0.2s; }
