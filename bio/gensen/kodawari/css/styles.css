@@ -173,7 +173,7 @@
 }
 
 #page-body {
-  padding-top: 155px;
+
 }
 @media screen and (max-width: 767px) {
   #page-body {
@@ -196,6 +196,8 @@
   opacity: 0;
   overflow: hidden;
   display: none;
+	width: auto !important;
+	max-width: none;
 }
 #page-body .container.block {
   display: block;
@@ -716,6 +718,6 @@
   }
 
   #page-body {
-    margin-top: 140px;
+
   }
 }

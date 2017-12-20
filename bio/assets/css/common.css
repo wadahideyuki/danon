@@ -89,11 +89,11 @@ header .btn-danon { margin-right: 10px; }
 header .logo { margin: 10px 0 3px 10px; display: inline-block; background: url(../img/lgo_bg.png) no-repeat center top; }
 header a { color: #FFF; text-decoration: none; }
 header ul.nav-first { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: top; z-index: 999; font-size: 1rem; }
-header .nav-first > li { padding: 35px 1em 27px 1em; transition: 0.5s; }
+header .nav-first > li { padding: 35px 1em 27px 1em; transition: 0.5s; font-size: 16px; }
 header .nav-first > li:after { content: ""; display: block; width: 0px; height: 2px; background: #d6c56c; margin: 10px auto 0 auto; transition: 0.1s; }
 header .nav-first > li:hover:after { width: 38px; }
-header.page14days .nav-first > li.nav-14dayschallenge:after, header.pageAbout .nav-first > li.nav-about:after, header.pageLineup .nav-first > li.nav-lineup:after { width: 38px; }
-header .nav-second { height: 0px; overflow: hidden; width: 100%; position: absolute; color: #FFF; background: #409e7b; bottom: -54px; left: 0px; text-align: center; opacity: 0; z-index: 10; transition: 0.3s; }
+header.page14days .nav-first > li.nav-14dayschallenge:after, header.pageGensen .nav-first > li.nav-gensen:after, header.pageAbout .nav-first > li.nav-about:after, header.pageLineup .nav-first > li.nav-lineup:after { width: 38px; }
+header .nav-second { height: 0px; overflow: hidden; width: 100%; position: absolute; color: #FFF; background: #409e7b; bottom: -54px; left: 0px; text-align: center; opacity: 0; z-index: 10; transition: 0.3s; z-index: 1000; }
 header .nav-second a:hover { text-decoration: underline; }
 header .nav-first > li:hover > .nav-second { opacity: 1; overflow: auto; height: auto; }
 header .nav-second li { display: inline-block; padding: 15px 15px; }

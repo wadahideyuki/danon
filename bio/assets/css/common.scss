@@ -190,6 +190,7 @@ header {
   .nav-first > li {
     padding: 35px 1em 27px 1em;
     transition: 0.5s;
+	  font-size: 16px;
     &:after {
       content: "";
       display: block;
@@ -204,6 +205,7 @@ header {
     }
   }
 	&.page14days .nav-first > li.nav-14dayschallenge:after,
+	&.pageGensen .nav-first > li.nav-gensen:after,
 	&.pageAbout .nav-first > li.nav-about:after,
 	&.pageLineup .nav-first > li.nav-lineup:after{
 		width: 38px;
@@ -221,6 +223,7 @@ header {
     opacity: 0;
     z-index: 10;
     transition: 0.3s;
+	  z-index: 1000;
 	  a:hover{
 		  text-decoration: underline;
 	  }

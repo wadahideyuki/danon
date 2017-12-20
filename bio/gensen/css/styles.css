@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #page-body{
-	margin-top: 93px;
+	margin-top: 0px;
 }
 #hero-area{
 	-webkit-box-sizing: border-box;
@@ -359,7 +359,7 @@
 
 @media (max-width: 767px){
 	#page-body{
-		margin-top: 70px;
+		margin-top: 0px;
 	}
 	#hero-area{
 		height: 240px;

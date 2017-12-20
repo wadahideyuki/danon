@@ -18,7 +18,6 @@
 ページ内共通
  */
 #page-body{
-	padding-top: 155px;
 }
 #page-body>section{
 	margin-bottom: 220px;
@@ -708,7 +707,6 @@
 	}
 
 	#page-body{
-		margin-top: 111px;
 		max-width: 100%;
 		overflow-x: hidden;
 		padding-top: 0;
