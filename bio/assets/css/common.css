@@ -89,11 +89,13 @@ header .btn-danon { margin-right: 10px; }
 header .logo { margin: 10px 0 3px 10px; display: inline-block; background: url(../img/lgo_bg.png) no-repeat center top; }
 header a { color: #FFF; text-decoration: none; }
 header ul.nav-first { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: top; z-index: 999; font-size: 1rem; }
-header .nav-first > li { padding: 32px 1em 22px 1em; transition: 0.5s; }
+header .nav-first > li { padding: 35px 1em 27px 1em; transition: 0.5s; }
 header .nav-first > li:after { content: ""; display: block; width: 0px; height: 2px; background: #d6c56c; margin: 10px auto 0 auto; transition: 0.1s; }
 header .nav-first > li:hover:after { width: 38px; }
 header.page14days .nav-first > li.nav-14dayschallenge:after, header.pageAbout .nav-first > li.nav-about:after, header.pageLineup .nav-first > li.nav-lineup:after { width: 38px; }
-header .nav-second { height: 0px; overflow: hidden; width: 100%; position: absolute; color: #FFF; background: #409e7b; bottom: -50px; left: 0px; text-align: center; opacity: 0; z-index: 10; transition: 0.3s; }
+header .nav-second { height: 0px; overflow: hidden; width: 100%; position: absolute; color: #FFF; background: #409e7b; bottom: -54px; left: 0px; text-align: center; opacity: 0; z-index: 10; transition: 0.3s; }
+header .nav-second a:hover { text-decoration: underline; }
+header .nav-first > li:hover > .nav-second { opacity: 1; overflow: auto; height: auto; }
 header .nav-second li { display: inline-block; padding: 15px 15px; }
 
 .sp-wrap { position: fixed; display: none; width: 100%; height: 100vh; top: 0; right: 0; bottom: 0; left: 0; transition: all 0.15s ease-out 0s; background: #154734; opacity: 0.8; z-index: 100; }
@@ -103,6 +105,7 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
 .sp-menu-btn { display: none; }
 
 @media screen and (max-width: 767px) { header .container { padding: 2%; box-sizing: border-box; }
+  header .logo { margin: 0 0 0 5px; }
   header .sp-menu-btn { position: absolute; right: 4%; top: 28%; content: ""; display: block; width: 50px; height: 50px; background: url(../img/sp_menu.png) no-repeat; background-size: cover; cursor: pointer; }
   header nav { display: block; position: fixed; right: -266px; top: 0px; padding: 0px 15px; background: #FFFFFF; height: 100vh; box-sizing: border-box; width: 266px; z-index: 999; transition: 0.2s; }
   header nav.open { right: 0px; }
@@ -111,6 +114,7 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
   header nav.open ul.nav-first { display: block; }
   header .nav-first > li { padding: 0px; margin: 0px; border-bottom: 1px solid #CCC; position: relative; font-size: 16px; }
   header .nav-first > li.has-menu { background-repeat: no-repeat; background-position: right 15px; background-size: 30px  auto; }
+  header .nav-first > li.has-menu:before { border: none; content: "+"; position: absolute; right: 5%; font-size: 30px; top: 3px; color: #20966e; }
   header .nav-first > li.has-menu.open { background-position: right -39px; }
   header .nav-first > li.has-menu.open:before { content: "-"; top: 0px; }
   header .nav-first > li:after { display: none; }

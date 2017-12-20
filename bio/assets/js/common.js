@@ -30,12 +30,12 @@ $(document).on('ready', function() {
 	$(window).resize(function(){
 		 winW =$(window).width();
 	});	
-//	$("header").on("click"," nav.open li.has-menu > a",function(){
-//		$(this).parents("li").toggleClass("open");
-//		if(winW < 768){
-//		return false;
-//		}
-//	});
+	$("header").on("click"," nav.open li.has-menu > a",function(){
+		$(this).parents("li").toggleClass("open");
+		if(winW < 768){
+		return false;
+		}
+	});
 	$(".sp-menu-close,.sp-wrap").click(function(){
 		$("header nav,.sp-wrap").toggleClass("open");
 	})
@@ -53,6 +53,10 @@ $(".about-nav li a").click(function(){
 	if(pageCategory == "?tikara"){
 		$(".about-list > li").hide();
 		$(".about-list > li.filtTikara").show();
+	}
+	if(pageCategory == "?brand"){
+		$(".about-list > li").hide();
+		$(".about-list > li.filtBrand").show();
 	}
 	if(pageCategory == "?campaign"){
 		$(".lineup-list > li").hide();

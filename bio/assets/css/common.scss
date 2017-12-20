@@ -188,7 +188,7 @@ header {
     font-size: 1rem;
   }
   .nav-first > li {
-    padding: 32px 1em 22px 1em;
+    padding: 35px 1em 27px 1em;
     transition: 0.5s;
     &:after {
       content: "";
@@ -215,18 +215,21 @@ header {
     position: absolute;
     color: #FFF;
     background: #409e7b;
-    bottom: -50px;
+    bottom: -54px;
     left: 0px;
     text-align: center;
     opacity: 0;
     z-index: 10;
     transition: 0.3s;
+	  a:hover{
+		  text-decoration: underline;
+	  }
   }
-//  .nav-first > li:hover > .nav-second {
-//    opacity: 1;
-//    overflow: auto;
-//    height: auto;
-//  }
+  .nav-first > li:hover > .nav-second {
+    opacity: 1;
+    overflow: auto;
+    height: auto;
+  }
   .nav-second li {
     display: inline-block;
     padding: 15px 15px;
@@ -260,6 +263,9 @@ header {
       padding: 2%;
       box-sizing: border-box;
     }
+	  .logo{
+		  margin: 0 0 0 5px;
+	  }
     .sp-menu-btn {
       position: absolute;
       right: 4%;
@@ -313,16 +319,16 @@ header {
         background-repeat: no-repeat;
         background-position: right 15px;
         background-size: 30px  auto;
-//	  &:before {
-//		  border: none;
-//		  content: "+";
-//		  position: absolute;
-//		  right: 5%;
-//		  font-size: 30px;
-//		  top: 3px;
-//		  color: #20966e;
-//
-//	  }
+	  &:before {
+		  border: none;
+		  content: "+";
+		  position: absolute;
+		  right: 5%;
+		  font-size: 30px;
+		  top: 3px;
+		  color: #20966e;
+
+	  }
         &.open {
           background-position: right -39px;
 		  &:before {
