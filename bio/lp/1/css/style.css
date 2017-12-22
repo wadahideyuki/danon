@@ -1,0 +1,386 @@
+@charset "UTF-8";
+/* Style.Css
+---------------------------------------------------- */
+.spDevice{display: none;}
+a,
+a:hover{text-decoration: none;}
+
+
+/*----レイアウト----
+---------------------*/
+.wrapper{}
+.inner{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{}
+
+
+.lpCont{
+	width: auto;
+	max-width: none;
+	padding-top: 100px;
+	font-size: 10px;
+	text-align: center;
+}
+.lpCont img{width: 100%;}
+
+.footer{}
+
+
+/*----各コンテンツ----
+---------------------*/
+.main{
+	background:url(../img/main_bg.png) center center no-repeat #115b2c;
+	padding: 0 15px;
+	text-align: left;
+}
+.main .inner{height: 561px;}
+.main h1{
+	width: 480px;
+	padding-top: 35px;
+}
+
+
+.ttl1{
+	padding: 40px 15px;
+	font-size: 3.8em;
+}
+
+.img1{
+	margin-bottom: 60px;
+	position: relative;
+}
+.img1 > div{
+	display: table;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img1 > div p{
+	display: table-cell;
+	padding: 15px;
+	font-size: 1.7em;
+	line-height: 1.76;
+	vertical-align: middle;
+}
+
+h3{font-size: 3.0em;}
+.quote{}
+	.quote.no1{margin-bottom: 25px;}
+	.quote.no2{margin-bottom: 20px;}
+.quote span{
+	display: inline-block;
+	padding-left: 70px;
+	padding-right: 70px;
+	position: relative;
+}
+.quote span:before,
+.quote span:after{
+	content: "";
+	background-repeat: no-repeat;
+	width: 47px;
+	height: 35px;
+	position: absolute;
+}
+.quote span:before{
+	background-image: url(../img/quote_l.png);
+	background-position: left top;
+	top: 0;
+	left: 0;
+}
+.quote span:after{
+	background-image: url(../img/quote_r.png);
+	background-position: right bottom;
+	bottom: 0;
+	right: 0;
+}
+
+.txt1{
+	padding: 0 15px;
+	margin-bottom: 35px;
+	color: #018e6b;
+	font-size: 2.2em;
+}
+.txt1 sup{
+	margin-left: -0.4em;
+	font-size: 0.7em;
+	vertical-align: top;
+}
+
+.futyoBox{
+	max-width: 555px;
+	margin:0 auto 70px;
+}
+.futyoBox p{
+	margin:0 10px 20px;
+	padding: 8px 10px 6px;
+	font-size: 1.8em;
+	border: 1px solid #b5b5b6;
+}
+
+.txt2{
+	margin-bottom: 35px;
+	padding: 0 15px;
+	font-size: 1.6em;
+	line-height: 1.75;
+}
+
+
+.img3{
+	background:url(../img/img3_bg.png) center top repeat-y;
+	background-size: 100% auto;
+	margin-bottom: 40px;
+}
+.img3 span{
+	display: block;
+	background:url(../img/img3.png) center top no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+
+.kodawariBox{margin:0 15px 80px;}
+.kodawariBox h3{margin-bottom: 30px;}
+.kodawariBox ul{letter-spacing: -0.5em;}
+.kodawariBox li{
+	display: inline-block;
+	width: 27.1%;
+	text-align: left;
+	vertical-align: top;
+	letter-spacing: normal;
+}
+.kodawariBox li + li{margin-left: 9.3%;}
+.kodawariBox li strong{
+	display: block;
+	margin-bottom: 15px;
+	color: #018e6b;
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: 1.38;
+}
+.kodawariBox li .img{margin-bottom: 10px;}
+.kodawariBox li p{
+	font-size: 1.5em;
+	line-height: 1.4;
+}
+
+.seihinBox{margin-bottom: 50px;}
+.seihinBox .img{
+	max-width: 232px;
+	margin:0 auto 25px;
+}
+.seihinBox em{
+	display: block;
+	margin-bottom: 10px;
+	color: #bda00f;
+	font-size: 1.6em;
+}
+.seihinBox p{
+	margin-bottom: 25px;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+.seihinBox a{
+	display: inline-block;
+	background-color: #154734;
+	padding: 17px 40px 13px;
+	color: #fff;
+	font-size: 1.6em;
+	transition: 0.3s;
+}
+	.seihinBox a:hover{opacity: 0.8;}
+
+.note{
+	max-width: 774px;
+	margin:0 auto;
+	padding: 0 15px;
+	font-size: 1.4em;
+	text-align: left;
+	line-height: 1.57;
+}
+
+
+/*=== メディアクエリ ===*/
+@media screen and (max-width:1030px){
+/*タブレット横(1001px以上、1031px未満)*/
+}
+@media screen and (max-width:1000px){
+/*タブレット縦(768px以上、1001px未満)*/
+
+
+/*----各コンテンツ----
+---------------------*/
+.main{
+	background-position: center top;
+	background-size: 100% auto;
+}
+.main .inner{height: auto;}
+.main h1{
+	width: 40%;
+	padding: 4% 0 4% 9%;
+}
+
+
+.img1 > div p{font-size: 1.4em;}
+
+
+.kodawariBox li{width: 30%;}
+	.kodawariBox li + li{margin-left: 5%;}
+.kodawariBox li strong{font-size: 1.55em;}
+
+
+}
+@media screen and (max-width:767px){
+/*モバイル(768px未満)*/
+.pcBrows{display:none;}
+.spDevice.spI{display: inline;}
+.spDevice.spB{display: block;}
+.spDevice.spIB{display: inline-block;}
+
+
+/*----レイアウト----
+---------------------*/
+.lpCont{
+	padding-top: 90px;
+	font-size: 3.125vw;
+}
+
+
+/*----各コンテンツ----
+---------------------*/
+.main{
+	background-position: right top;
+	background-size: 106% auto;
+}
+.main h1{
+	width: 45%;
+	padding: 3% 0 3% 4%;
+}
+
+
+.ttl1{
+	padding: 5% 3%;
+	font-size: 2.4em;
+}
+
+.img1{margin-bottom: 5%;}
+.img1 > div{position: static;}
+.img1 > div p{
+	padding: 3%;
+	font-size: 1.2em;
+	line-height: 1.4;
+	text-align: left;
+	color: #000;
+}
+
+h3{font-size: 2.0em;}
+.quote{padding: 0 3%;}
+	.quote.no1{margin-bottom: 5%;}
+	.quote.no2{margin-bottom: 3%;}
+.quote span{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.quote span:before,
+.quote span:after{
+	background-size: contain;
+	width: 5%;
+}
+
+.txt1{
+	padding: 0 3%;
+	margin-bottom: 5%;
+	font-size: 1.6em;
+	text-align: left;
+}
+
+.futyoBox{margin:0 auto 7%;}
+.futyoBox p{
+	margin:0 3% 3%;
+	padding: 2% 3%;
+	font-size: 1.4em;
+}
+.futyoBox .img2{padding: 0 3%;}
+
+.txt2{
+	margin-bottom: 5%;
+	padding: 0 3%;
+	font-size: 1.2em;
+	line-height: 1.4;
+	text-align: left;
+}
+
+
+.img3{
+	background:url(../img/img3_bg.png) center top repeat-y;
+	margin-bottom: 8%;
+}
+.img3 span{
+	display: block;
+	background:url(../img/img3.png) center top no-repeat;
+	background-size: 100% auto;
+	height: auto;
+	padding-top: 33.3334%;
+}
+
+
+.kodawariBox{margin:0 3% 12%;}
+.kodawariBox h3{margin-bottom: 3%;}
+.kodawariBox li{
+	display: block;
+	width: auto;
+}
+.kodawariBox li + li{margin:6% 0 0;}
+.kodawariBox li strong{
+	margin-bottom: 2%;
+	font-size: 1.6em;
+}
+.kodawariBox li .img{margin-bottom: 3%;}
+.kodawariBox li p{font-size: 1.2em;}
+
+.seihinBox{margin:0 3% 10%;}
+.seihinBox .img{
+	max-width: 232px;
+	margin:0 auto 25px;
+}
+.seihinBox em{
+	margin-bottom: 3%;
+	font-size: 1.3em;
+}
+.seihinBox p{
+	margin-bottom: 5%;
+	font-size: 1.6em;
+}
+.seihinBox a{
+	display: block;
+	padding: 5% 3% 5%;
+}
+
+.note{
+	padding: 0 3%;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
