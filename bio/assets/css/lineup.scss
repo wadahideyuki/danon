@@ -23,7 +23,8 @@
 }
 $main-color: #20966e;
 .content-image{
-	background: #eeeeee;
+	background: #FFF url(../img/lineup_top.jpg) no-repeat center;
+	background-size: cover;
 		@include mq{
 			display: flex;
 			justify-content: center;
@@ -130,11 +131,9 @@ $main-color: #20966e;
 			text-decoration: none;
 			color: #20966e;
 			em{
-				display: inline-block;
-				padding: 2px 10px;
-				color: #000;
+				display: block;
+				color: #666;
 				font-size: 0.8rem;
-				background: #CCC;
 				margin-bottom: 5px;
 			}
 		}
@@ -147,7 +146,7 @@ $main-color: #20966e;
 			padding: 0 5px;
 			span{
 				position: absolute;
-				left: 0px;
+				left: 5px;
 				 top: 20px;
 			}
 		}
@@ -166,17 +165,44 @@ span[class^="icon"]{
 	display: inline-block;
 	color: #FFF;
 	font-size: 0.9rem;
+	text-indent: -9999px;
 	padding: 5px 15px;
 	line-height: 1.2;
+	position: absolute;
+	box-sizing: border-box;
 }
 .icon_season{
-	background: #13b5b1;
+	background-image: url(../img/icon_season.png);
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	background-size: contain;
+	@include mq(){
+	width: 20%;
+	height:20%;
+	}
 }
 .icon_new{
-	background: #e60012;
+	background-image: url(../img/icon_new.png) ;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	background-size: contain;
+	@include mq(){
+	width: 20%;
+	height:20%;
+	}
 }
 .icon_renew{
-	background: #f8b551;
+	background-image: url(../img/icon_renew.png) ;
+	background-repeat: no-repeat;
+	width: 87px;
+	height: 87px;
+	background-size: contain;
+	@include mq(){
+	width: 20%;
+	height:20%;
+	}
 }
 
 .font-green{
@@ -214,6 +240,12 @@ span[class^="icon"]{
 		}
 	dt{
 		width: 35%;
+		position: relative;
+		span[class^="icon"]{
+			left: 0px;
+			top: 70px;
+		}
+		
 		@include mq(){
 			width: 100%;
 		}

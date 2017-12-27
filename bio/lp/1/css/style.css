@@ -57,7 +57,7 @@ a:hover{text-decoration: none;}
 	display: table;
 	color: #fff;
 	width: 100%;
-	height: 100%;
+    height: 17vw;
 	margin: auto;
 	position: absolute;
 	top: 0;
@@ -66,7 +66,7 @@ a:hover{text-decoration: none;}
 .img1 > div p{
 	display: table-cell;
 	padding: 15px;
-	font-size: 1.7em;
+	font-size: 1.6em;
 	line-height: 1.76;
 	vertical-align: middle;
 }
@@ -228,7 +228,7 @@ h3{font-size: 3.0em;}
 }
 
 
-.img1 > div p{font-size: 1.4em;}
+.img1 > div p{font-size: 1rem;}
 
 
 .kodawariBox li{width: 30%;}
@@ -253,6 +253,7 @@ h3{font-size: 3.0em;}
 }
 
 
+.img1 > div p{color: #333}
 /*----各コンテンツ----
 ---------------------*/
 .main{

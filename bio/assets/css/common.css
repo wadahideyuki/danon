@@ -2,7 +2,7 @@
 html { font-size: 1rem; }
 @media screen and (max-width: 767px) { html { font-size: 4vw; } }
 
-body { line-height: 1.6; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "繝｡繧､繝ｪ繧ｪ", Meiryo, sans-serif; }
+body { line-height: 1.6; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
 
 .sp-only { display: none; }
 @media screen and (max-width: 767px) { .sp-only { display: block; } }
@@ -138,12 +138,14 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
 .content-list.about-list li em { background: #CCC; color: #000; }
 .content-list li { display: inline-block; width: 33.3334%; padding: 0 5px; color: #20966e; font-size: 1.1rem; vertical-align: top; letter-spacing: normal; box-sizing: border-box; }
 @media screen and (max-width: 767px) { .content-list li { display: block; width: 95%; margin: 0 auto; } }
-.content-list li a { display: block; color: #20966e; text-decoration: none; overflow: hidden; }
+.content-list li a { display: block; color: #20966e; text-decoration: none; overflow: hidden; transition: 0.5s; }
 .content-list li a div { background: #FFF; position: relative; margin-bottom: 15px; z-index: 20; }
 .content-list li.thumb-width2 { width: 66.6667%; }
 @media screen and (max-width: 767px) { .content-list li.thumb-width2 { width: 95%; margin: 0 auto; } }
 .content-list li.thumb-width2 a:before { padding-top: 49%; }
 @media screen and (max-width: 767px) { .content-list li.thumb-width2 a:before { padding-top: 100%; } }
+.content-list li.cont-winter a:before { background-image: url(../img/about/thumb_winter.jpg); }
+.content-list li.cont-advice a:before { background-image: url(../img/about/thumb_advice.jpg); }
 .content-list li.cont-symptom a:before { background-image: url(../img/about/thumb_symptom_women.jpg); }
 .content-list li.cont-wakankitsu a:before { background-image: url(../img/about/thumb_wakankitsu.jpg); }
 .content-list li.cont-14dayschallengemenu a:before { background-image: url(../img/about/thumb_14dayschallenge.jpg); }
@@ -163,8 +165,8 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
 .content-list li.cont-bifidus-chigai a:before { background-image: url(../img/about/thumb_bifidus-chigai.jpg); }
 .content-list li.cont-kodawari a:before { background-image: url(../img/about/thumb_kodawari.jpg); }
 .content-list li.cont-kakushin a:before { background-image: url(../img/about/thumb_kakushin.jpg); }
-.content-list li a:hover:before { transition: 0.3s; opacity: 0.6; transform: scale(1.1); }
-.content-list li a:before { content: ""; display: block; width: 100%; padding-top: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; }
+.content-list li a:hover:before { transition: 0.5s; opacity: 0.6; transform: scale(1.05); }
+.content-list li a:before { transition: 0.5s; content: ""; display: block; width: 100%; padding-top: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; }
 .content-list li em { background: #00966C; color: white; text-transform: uppercase; font-size: 0.7em; display: inline-block; margin: 10px 0; padding: 0.5em 0.8em; letter-spacing: 0.25em; font-weight: 600; line-height: 1.2; }
 
 /**lineup-block**/
@@ -173,17 +175,17 @@ header .nav-second li { display: inline-block; padding: 15px 15px; }
 .lineup-ttl { text-align: center; }
 
 /**footer**/
+footer { background: #EDEDED; }
 footer a:hover { text-decoration: underline; }
 
 .foot-txt { padding: 0 10px; }
 
 .foot-txt p { padding-bottom: 10px; font-size: 0.9rem; }
 
-footer { padding: 150px 10px 0 10px; }
-@media screen and (max-width: 767px) { footer { padding-top: 20%; } }
+footer { margin-top: 50px; padding: 50px 10px 0 10px; }
+@media screen and (max-width: 767px) { footer { margin-top: 20%; padding-top: 20%; } }
 footer nav { display: flex; flex-wrap: nowrap; justify-content: space-between; max-width: 1024px; margin: 0 auto; font-size: 0.9rem; padding-bottom: 30px; }
 @media screen and (max-width: 767px) { footer nav { display: none; } }
-footer nav dt { font-weight: bold; }
 footer nav li { padding-top: 15px; }
 footer a { color: #1a4735; text-decoration: none; }
 footer .footer-link { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; max-width: 1024px; margin: 0 auto; font-size: 0.9rem; border-top: 1px solid #CCC; padding: 20px 0 30px 0; }

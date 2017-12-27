@@ -1,4 +1,4 @@
-.content-image { background: #eeeeee; }
+.content-image { background: #FFF url(../img/lineup_top.jpg) no-repeat center; background-size: cover; }
 @media screen and (max-width: 767px) { .content-image { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; align-content: center; } }
 .content-image h1 { font-size: 3rem; padding: 150px 0 20px 0; line-height: 1.4; }
 @media screen and (max-width: 767px) { .content-image h1 { padding: 0 0 20px 0; font-size: 1.5rem; } }
@@ -21,21 +21,24 @@
 @media screen and (max-width: 767px) { .lineup-list li { width: 33.3%; } }
 @media screen and (max-width: 600px) { .lineup-list li { width: 95%; margin: 0 auto; } }
 .lineup-list li a { display: block; text-decoration: none; color: #20966e; }
-.lineup-list li a em { display: inline-block; padding: 2px 10px; color: #000; font-size: 0.8rem; background: #CCC; margin-bottom: 5px; }
+.lineup-list li a em { display: block; color: #666; font-size: 0.8rem; margin-bottom: 5px; }
 .lineup-list li img { width: 100%; height: auto; }
 .lineup-list li dt { position: relative; padding: 0 5px; }
-.lineup-list li dt span { position: absolute; left: 0px; top: 20px; }
+.lineup-list li dt span { position: absolute; left: 5px; top: 20px; }
 .lineup-list li dd { padding: 0 5px; }
 @media screen and (max-width: 767px) { .lineup-list li dd { padding: 0 2%; } }
 @media screen and (max-width: 600px) { .lineup-list li dd { padding: 0; } }
 
-span[class^="icon"] { display: inline-block; color: #FFF; font-size: 0.9rem; padding: 5px 15px; line-height: 1.2; }
+span[class^="icon"] { display: inline-block; color: #FFF; font-size: 0.9rem; text-indent: -9999px; padding: 5px 15px; line-height: 1.2; position: absolute; box-sizing: border-box; }
 
-.icon_season { background: #13b5b1; }
+.icon_season { background-image: url(../img/icon_season.png); background-repeat: no-repeat; width: 60px; height: 60px; background-size: contain; }
+@media screen and (max-width: 767px) { .icon_season { width: 20%; height: 20%; } }
 
-.icon_new { background: #e60012; }
+.icon_new { background-image: url(../img/icon_new.png); background-repeat: no-repeat; width: 60px; height: 60px; background-size: contain; }
+@media screen and (max-width: 767px) { .icon_new { width: 20%; height: 20%; } }
 
-.icon_renew { background: #f8b551; }
+.icon_renew { background-image: url(../img/icon_renew.png); background-repeat: no-repeat; width: 87px; height: 87px; background-size: contain; }
+@media screen and (max-width: 767px) { .icon_renew { width: 20%; height: 20%; } }
 
 .font-green { color: #20966e; }
 
@@ -45,7 +48,8 @@ span[class^="icon"] { display: inline-block; color: #FFF; font-size: 0.9rem; pad
 @media screen and (max-width: 767px) { .product-head h1 { font-size: 1.8rem; position: absolute; left: 0px; top: 0px; } }
 .product-head p { padding-top: 20px; }
 .product-head dl { display: flex; align-item: top; flex-wrap: wrap; }
-.product-head dt { width: 35%; }
+.product-head dt { width: 35%; position: relative; }
+.product-head dt span[class^="icon"] { left: 0px; top: 70px; }
 @media screen and (max-width: 767px) { .product-head dt { width: 100%; } }
 .product-head dt img { width: 100%; height: auto; }
 .product-head dd { width: 65%; padding: 50px 20px 0 30px; box-sizing: border-box; }

@@ -1,3 +1,4 @@
+@charset "utf-8";
 @mixin mq($breakpoint: medium) {
   @if $breakpoint == xsmall {
     @media screen and (max-width: 320px) {
@@ -437,6 +438,7 @@ header {
       color: #20966e;
       text-decoration: none;
       overflow: hidden;
+        transition: 0.5s;
       div {
         background: #FFF;
         position: relative;
@@ -456,6 +458,12 @@ header {
         	padding-top: 100%;
 		  }
       }
+    }
+    &.cont-winter a:before {
+      background-image: url(../img/about/thumb_winter.jpg);
+    }
+    &.cont-advice a:before {
+      background-image: url(../img/about/thumb_advice.jpg);
     }
     &.cont-symptom a:before {
       background-image: url(../img/about/thumb_symptom_women.jpg);
@@ -517,11 +525,12 @@ header {
 	  
     a {
       &:hover:before {
-        transition: 0.3s;
+        transition: 0.5s;
         opacity: 0.6;
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
       &:before {
+        transition: 0.5s;
         content: "";
         display: block;
         width: 100%;
@@ -558,6 +567,7 @@ header {
 
 /**footer**/
 footer{
+	background: #EDEDED;
 	a:hover{
 		text-decoration: underline;
 	}
@@ -571,8 +581,10 @@ footer{
 }
 
 footer {
-  padding: 150px 10px 0 10px;
+	margin-top: 50px;
+  padding: 50px 10px 0 10px;
 	  @include mq{
+  margin-top: 20%;
   padding-top: 20%;
 	  }
   nav {
@@ -588,7 +600,6 @@ footer {
 	  }
 	  
     dt {
-      font-weight: bold;
     }
     li {
       padding-top: 15px;

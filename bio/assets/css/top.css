@@ -6,7 +6,7 @@
 @media screen and (max-width: 767px) { .main-content .slides { height: 450px; max-height: none; } }
 .main-content .slide1 div { background: #f1f1ee url(../img/top/main_ph01.jpg) no-repeat center 80%; background-size: auto 130%; height: 30vw; min-height: 350px; max-height: 450px; position: relative; z-index: 20; width: 100%; text-align: center; padding-top: 10%; }
 @media screen and (max-width: 767px) { .main-content .slide1 div { height: 350px; background-size: auto 350px; background-position: center top; max-height: none; min-height: 0; padding-top: 0%; } }
-.main-content .slide1 p { color: #1a4735; text-align: center; padding-bottom: 50px; font-size: 2.5rem; text-shadow: 0 0 8px #FFFFFF, 0 0 8px #FFFFFF, 0 0 8px #FFFFFF, 0 0 8px #FFFFFF; }
+.main-content .slide1 p { color: #1a4735; text-align: center; padding-bottom: 50px; font-size: 2.2rem; }
 @media screen and (max-width: 767px) { .main-content .slide1 p { font-size: 14px; padding-top: 170px; padding-bottom: 180px; } }
 @media screen and (max-width: 767px) { .main-content .slide1 .btn1 { font-size: 14px; } }
 
